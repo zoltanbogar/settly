@@ -1,0 +1,18 @@
+.Clients {
+    margin: 20px;
+}
+
+.Clients .Button {
+    margin: 0 0 10px 10px;
+}
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .Clients .Button {
+        margin: 0 0 10px 20px;
+    }
+}

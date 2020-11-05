@@ -1,0 +1,25 @@
+.Modal {
+	position: fixed;
+	z-index: 500;
+	background-color: #f7f7f7;
+	width: 70%;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px black;
+	padding: 16px;
+	left: 15%;
+	top: 30%;
+	box-sizing: border-box;
+	transition: all 0.3s ease-out;
+	line-height: 20px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.Modal pre {
+	word-break: break-word;
+	white-space: pre-wrap;
+}
+
+.Error {
+	z-index: 502;
+}

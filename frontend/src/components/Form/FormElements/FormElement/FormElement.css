@@ -1,0 +1,32 @@
+.Input {
+    width: 100%;
+    border:none;
+    border-bottom:1px solid #757575;
+    font-size:18px;
+    padding:10px 10px 10px 0;
+    display:block;
+    background: #f7f7f7;
+}
+
+.Input:focus         { outline:none; }
+
+.Label {
+    color:#000;
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    top:10px;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}
+
+.Input:focus ~ .Label, .Input:valid ~ .Label {
+    top:-20px;
+}
+
+.Row {
+    position:relative;
+    margin-bottom:45px;
+}

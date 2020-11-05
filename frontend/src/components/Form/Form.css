@@ -1,0 +1,10 @@
+.Form {
+    /*height: 600px;*/
+    width: 500px;
+    background: #f7f7f7;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 40px;
+}

@@ -1,0 +1,16 @@
+.Footer {
+    margin-top: 15px;
+}
+
+.Footer span {
+    margin-right: 10px;
+}
+
+.Footer a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Footer a, .Footer a:hover, .Footer a:visited {
+    color: #4a87ca;
+}
